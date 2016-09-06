@@ -1,0 +1,13 @@
+{
+  "windows": {
+    "release": {
+      "packageCertificateKeyFile": "res\\native\\windows\\CordovaApp.pfx",
+      "publisherId": "CN=9AFA1C67-FFDB-4A3F-8494-F80FAFADA583"
+    },
+
+     "debug": {
+      "packageCertificateKeyFile": "res\\native\\windows\\CordovaApp.pfx",
+      "publisherId": "CN=9AFA1C67-FFDB-4A3F-8494-F80FAFADA583"
+    }
+  }
+}

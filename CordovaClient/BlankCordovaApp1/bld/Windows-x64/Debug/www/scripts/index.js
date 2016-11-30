@@ -48,7 +48,7 @@
         });
 
         pushRegistration.on('notification', function (data, d2) {
-            alert('Push Received: ' + data.message);
+         //   alert('Push Received: ' + data.message);
         });
 
         pushRegistration.on('error', handleError);

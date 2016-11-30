@@ -1,0 +1,11 @@
+c:\users\apchin\documents\visual studio 2015\Projects\Authentication\Authentication\Authentication\bin\Debug\Authentication.dll
+c:\users\apchin\documents\visual studio 2015\Projects\Authentication\Authentication\Authentication\bin\Debug\Authentication.pdb
+c:\users\apchin\documents\visual studio 2015\Projects\Authentication\Authentication\Authentication\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\apchin\documents\visual studio 2015\Projects\Authentication\Authentication\Authentication\bin\Debug\Xamarin.Forms.Platform.dll
+c:\users\apchin\documents\visual studio 2015\Projects\Authentication\Authentication\Authentication\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\apchin\documents\visual studio 2015\Projects\Authentication\Authentication\Authentication\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\apchin\documents\visual studio 2015\Projects\Authentication\Authentication\Authentication\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\apchin\documents\visual studio 2015\Projects\Authentication\Authentication\Authentication\obj\Debug\Authentication.dll
+c:\users\apchin\documents\visual studio 2015\Projects\Authentication\Authentication\Authentication\obj\Debug\Authentication.pdb
+c:\users\apchin\documents\visual studio 2015\Projects\Authentication\Authentication\Authentication\obj\Debug\Authentication.dll.mdb
+c:\users\apchin\documents\visual studio 2015\Projects\Authentication\Authentication\Authentication\bin\Debug\Authentication.dll.mdb

@@ -6,6 +6,8 @@
   </PropertyGroup>
   <PropertyGroup>
     <ReferenceCachePath>C:\Users\apchin\AppData\Local\Temp\BlankCordovaApp1_refcache</ReferenceCachePath>
-    <AppxShowAllApps>False</AppxShowAllApps>
+    <AppxShowAllApps>True</AppxShowAllApps>
+    <AppxPackageIsForStore>False</AppxPackageIsForStore>
+    <AppxBuildConfigurationSelection>x64</AppxBuildConfigurationSelection>
   </PropertyGroup>
 </Project>

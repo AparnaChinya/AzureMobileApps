@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="49873Apchin.MobileAppsDemo" Publisher="CN=9AFA1C67-FFDB-4A3F-8494-F80FAFADA583" Version="1.1.0.0" ProcessorArchitecture="x64" />
+  <Identity Name="49873Apchin.MobileAppsDemo" Publisher="CN=7fdc7d79-d747-4fea-b295-fe0d51c08a87" Version="1.0.0.0" ProcessorArchitecture="x64" />
   <Properties>
     <DisplayName>MobileAppsDemo</DisplayName>
     <PublisherDisplayName>Apchin</PublisherDisplayName>
@@ -50,10 +50,10 @@
     <Extension Category="windows.activatableClass.inProcessServer">
       <InProcessServer>
         <Path>SQLite3.dll</Path>
-        <ActivatableClass ActivatableClassId="SQLite3.Datatype" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="SQLite3.ResultCode" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="SQLite3.Statement" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="SQLite3.Database" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SQLite3.Datatype" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SQLite3.Statement" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SQLite3.ResultCode" ThreadingModel="both" />
       </InProcessServer>
     </Extension>
   </Extensions>
@@ -62,8 +62,8 @@
     <build:Item Name="CodeSharingProject" Value="248F659F-DAC5-46E8-AC09-60EC9FC95053" />
     <build:Item Name="VisualStudio" Version="14.0" />
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Enterprise 2015" />
-    <build:Item Name="OperatingSystem" Version="10.0.14915.1000 (rs_prerelease.160826-1902)" />
-    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="14.0.25425.1" />
+    <build:Item Name="OperatingSystem" Version="10.0.14959.1000 (rs_prerelease.161026-1700)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="14.0.25431.1" />
     <build:Item Name="ProjectGUID" Value="00b236c2-7021-4ac9-b680-9985d3ff2b3e" />
     <build:Item Name="MakePri.exe" Version="6.3.9600.17336 (winblue.150226-1500)" />
   </build:Metadata>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>CHAKRA</Machine>
+    <Machine>APARNACHINYA</Machine>
     <WindowsUser>apchin</WindowsUser>
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <TargetOsVersion>6.3</TargetOsVersion>
@@ -9,136 +9,137 @@
     <SolutionConfiguration>debug|x64</SolutionConfiguration>
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>49873Apchin.MobileAppsDemo</PackageIdentityName>
-    <PackageIdentityPublisher>CN=9AFA1C67-FFDB-4A3F-8494-F80FAFADA583</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+    <PackageIdentityPublisher>CN=7fdc7d79-d747-4fea-b295-fe0d51c08a87</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\build\windows\bld\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\debug\x64\win8.1\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\build\windows\debug\x64\win8.1\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\plugins\cordova-sqlite-storage\src\windows\SQLite3-Win-RT\SQLite3\SQLite3.Windows\x64\debug\SQLite3.Windows\SQLite3.winmd">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\plugins\cordova-sqlite-storage\src\windows\SQLite3-Win-RT\SQLite3\SQLite3.Windows\x64\debug\SQLite3.Windows\SQLite3.winmd">
       <PackagePath>SQLite3.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\plugins\cordova-sqlite-storage\src\windows\SQLite3-Win-RT\SQLite3\SQLite3.Windows\x64\debug\SQLite3.Windows\SQLite3.dll">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\plugins\cordova-sqlite-storage\src\windows\SQLite3-Win-RT\SQLite3\SQLite3.Windows\x64\debug\SQLite3.Windows\SQLite3.dll">
       <PackagePath>SQLite3.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\images\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\images\SplashScreen.scale-100.png">
       <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\images\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\images\Square150x150Logo.scale-100.png">
       <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\images\Square30x30Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\images\Square30x30Logo.scale-100.png">
       <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\images\Square310x310Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\images\Square310x310Logo.scale-100.png">
       <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\images\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\images\Square44x44Logo.scale-100.png">
       <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\images\Square70x70Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\images\Square70x70Logo.scale-100.png">
       <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\images\Square71x71Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\images\Square71x71Logo.scale-100.png">
       <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\images\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\images\StoreLogo.scale-100.png">
       <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\images\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\images\Wide310x150Logo.scale-100.png">
       <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\images\cordova.png">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\www\images\cordova.png">
       <PackagePath>www\images\cordova.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\cordova-js-src\exec.js">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\www\cordova-js-src\exec.js">
       <PackagePath>www\cordova-js-src\exec.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\cordova-js-src\platform.js">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\www\cordova-js-src\platform.js">
       <PackagePath>www\cordova-js-src\platform.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\cordova.js">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\www\cordova.js">
       <PackagePath>www\cordova.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\cordova_plugins.js">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\www\cordova_plugins.js">
       <PackagePath>www\cordova_plugins.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\plugins\cordova-plugin-device\src\windows\DeviceProxy.js">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\www\plugins\cordova-plugin-device\src\windows\DeviceProxy.js">
       <PackagePath>www\plugins\cordova-plugin-device\src\windows\DeviceProxy.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\plugins\cordova-plugin-device\www\device.js">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\www\plugins\cordova-plugin-device\www\device.js">
       <PackagePath>www\plugins\cordova-plugin-device\www\device.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js">
       <PackagePath>www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js">
       <PackagePath>www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\plugins\cordova-plugin-ms-azure-mobile-apps\www\MobileServices.Cordova.Ext.js">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\www\plugins\cordova-plugin-ms-azure-mobile-apps\www\MobileServices.Cordova.Ext.js">
       <PackagePath>www\plugins\cordova-plugin-ms-azure-mobile-apps\www\MobileServices.Cordova.Ext.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\plugins\cordova-plugin-ms-azure-mobile-apps\www\MobileServices.Cordova.js">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\www\plugins\cordova-plugin-ms-azure-mobile-apps\www\MobileServices.Cordova.js">
       <PackagePath>www\plugins\cordova-plugin-ms-azure-mobile-apps\www\MobileServices.Cordova.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\plugins\cordova-sqlite-storage\src\windows\sqlite-proxy.js">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\www\plugins\cordova-sqlite-storage\src\windows\sqlite-proxy.js">
       <PackagePath>www\plugins\cordova-sqlite-storage\src\windows\sqlite-proxy.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\plugins\cordova-sqlite-storage\src\windows\SQLite3-Win-RT\SQLite3JS\js\SQLite3.js">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\www\plugins\cordova-sqlite-storage\src\windows\SQLite3-Win-RT\SQLite3JS\js\SQLite3.js">
       <PackagePath>www\plugins\cordova-sqlite-storage\src\windows\SQLite3-Win-RT\SQLite3JS\js\SQLite3.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\plugins\cordova-sqlite-storage\www\SQLitePlugin.js">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\www\plugins\cordova-sqlite-storage\www\SQLitePlugin.js">
       <PackagePath>www\plugins\cordova-sqlite-storage\www\SQLitePlugin.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\plugins\phonegap-plugin-push\src\windows\PushPluginProxy.js">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\www\plugins\phonegap-plugin-push\src\windows\PushPluginProxy.js">
       <PackagePath>www\plugins\phonegap-plugin-push\src\windows\PushPluginProxy.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\plugins\phonegap-plugin-push\www\push.js">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\www\plugins\phonegap-plugin-push\www\push.js">
       <PackagePath>www\plugins\phonegap-plugin-push\www\push.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\index.js">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\www\scripts\index.js">
       <PackagePath>www\scripts\index.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\jquery-2.1.4.min.js">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\www\scripts\jquery-2.1.4.min.js">
       <PackagePath>www\scripts\jquery-2.1.4.min.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\platformOverrides.js">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\www\scripts\platformOverrides.js">
       <PackagePath>www\scripts\platformOverrides.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\winstore-jscompat.js">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\www\scripts\winstore-jscompat.js">
       <PackagePath>www\scripts\winstore-jscompat.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\WinJS\js\base.js">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\www\WinJS\js\base.js">
       <PackagePath>www\WinJS\js\base.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\css\inappbrowser.css">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\www\css\inappbrowser.css">
       <PackagePath>www\css\inappbrowser.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\css\index.css">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\www\css\index.css">
       <PackagePath>www\css\index.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\index.html">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\www\index.html">
       <PackagePath>www\index.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\config.xml">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\config.xml">
       <PackagePath>config.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\apchin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\debug\x64\win8.1\resources.pri">
+    <AppxPackagedFile Include="C:\Users\apchin\Documents\AzureMobileApps\CordovaClient\BlankCordovaApp1\platforms\windows\build\windows\debug\x64\win8.1\resources.pri">
       <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

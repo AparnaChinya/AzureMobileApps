@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StoreAssociation xmlns="http://schemas.microsoft.com/appx/2010/storeassociation">
-  <Publisher>CN=9AFA1C67-FFDB-4A3F-8494-F80FAFADA583</Publisher>
-  <PublisherDisplayName>Apchin</PublisherDisplayName>
+  <Publisher>CN=B36FAB59-E5A5-4060-8057-E0DFFC7794DA</Publisher>
+  <PublisherDisplayName>pgtestdemo</PublisherDisplayName>
   <GeneratePackageHash>http://www.w3.org/2001/04/xmlenc#sha256</GeneratePackageHash>
   <SupportedLocales>
     <Language Code="af" InMinimumRequirementSet="true" />
@@ -358,16 +358,14 @@
     <Language Code="zu-za" InMinimumRequirementSet="true" />
   </SupportedLocales>
   <ProductReservedInfo>
-    <MainPackageIdentityName>49873Apchin.MobileAppsDemo</MainPackageIdentityName>
+    <MainPackageIdentityName>60585pgtestdemo.TestingApplication1</MainPackageIdentityName>
     <ReservedNames>
-      <ReservedName>MobileAppsDemo</ReservedName>
+      <ReservedName>TestingApplication1</ReservedName>
     </ReservedNames>
   </ProductReservedInfo>
   <AccountPackageIdentityNames>
-    <MainPackageIdentityName>49873Apchin.PandoraPrediction</MainPackageIdentityName>
-    <MainPackageIdentityName>49873Apchin.HackathonProject</MainPackageIdentityName>
-    <MainPackageIdentityName>49873Apchin.MarkMyHomePhone</MainPackageIdentityName>
-    <MainPackageIdentityName>49873Apchin.SmileyTemplates</MainPackageIdentityName>
+    <MainPackageIdentityName>60585pgtestdemo.pndemo1</MainPackageIdentityName>
+    <MainPackageIdentityName>60585pgtestdemo.pndemo2</MainPackageIdentityName>
   </AccountPackageIdentityNames>
-  <PackageInfoList LandingUrl="https://developer.microsoft.com/dashboard/Application?appId=9NBLGGH4TZ7K" />
+  <PackageInfoList LandingUrl="https://developer.microsoft.com/dashboard/Application?appId=9NBLGGH40SXZ" />
 </StoreAssociation>

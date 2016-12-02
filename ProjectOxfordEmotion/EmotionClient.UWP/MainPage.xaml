@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="EmotionClient.UWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EmotionClient.UWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Image x:Name="imageControl" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="0"/>
+        <Button x:Name="_pictureButton" Content="Take Picture" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Click="_pictureButton_Click"/>
+        <TextBlock x:Name="_result" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Grid.Row="2"/>
+
+    </Grid>
+</Page>

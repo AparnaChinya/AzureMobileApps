@@ -8,6 +8,9 @@
     <ReferenceCachePath>C:\Users\apchin\AppData\Local\Temp\BlankCordovaApp1_refcache</ReferenceCachePath>
     <AppxShowAllApps>True</AppxShowAllApps>
     <AppxPackageIsForStore>False</AppxPackageIsForStore>
-    <AppxBuildConfigurationSelection>x64</AppxBuildConfigurationSelection>
+    <AppxBuildConfigurationSelection>arm</AppxBuildConfigurationSelection>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Windows-x64'">
+    <DebuggerFlavor>PhoneDevice81</DebuggerFlavor>
   </PropertyGroup>
 </Project>

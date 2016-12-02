@@ -13,7 +13,7 @@
         document.addEventListener( 'pause', onPause.bind( this ), false );
         document.addEventListener( 'resume', onResume.bind( this ), false );
         
-        client = new WindowsAzure.MobileServiceClient("https://apchin-Mobileapp.azurewebsites.net");
+        client = new WindowsAzure.MobileServiceClient("https://testingapplication1.azurewebsites.net");
         todoItemTable = client.getTable("todoitem");
 
         $('#add-item').submit(addItemHandler);

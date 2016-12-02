@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="10648GlennGailey.glenga-newplan" Publisher="CN=9FB3DB37-605D-4B9E-B41C-85254402ED9A" Version="1.1.0.0" />
+  <Identity Name="49873Apchin.MobileAppsDemo" Publisher="CN=9AFA1C67-FFDB-4A3F-8494-F80FAFADA583" Version="1.1.0.0" />
   <mp:PhoneIdentity PhoneProductId="b7657ddb-b2f7-4885-9e64-d4f2feaf51e1" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>glenga-newplan</DisplayName>
-    <PublisherDisplayName>Glenn Gailey</PublisherDisplayName>
+    <DisplayName>MobileAppsDemo</DisplayName>
+    <PublisherDisplayName>Apchin</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>

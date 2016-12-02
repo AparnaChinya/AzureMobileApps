@@ -19,7 +19,7 @@ namespace todolist_complete
         // This MobileServiceClient has been configured to communicate with the Azure Mobile Service and
         // Azure Gateway using the application key. You're all set to start working with your Mobile Service!
         public static MobileServiceClient MobileService = new MobileServiceClient(
-            "https://{your-mobile-app-backend}.azurewebsites.net/"
+            "https://apchin-mobileapp.azurewebsites.net/"
         );
 
         /// <summary>

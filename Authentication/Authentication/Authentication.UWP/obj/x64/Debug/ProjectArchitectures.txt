@@ -1,0 +1,2 @@
+C:\Users\apchin.FAREAST\Documents\AzureMobileApps\Authentication\Authentication\Authentication.UWP\Authentication.UWP.csproj;x64
+C:\Users\apchin.FAREAST\Documents\AzureMobileApps\Authentication\Authentication\Authentication\Authentication.csproj;neutral

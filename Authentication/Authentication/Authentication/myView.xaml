@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Authentication.myView">
+  <ContentPage.Content>
+    <Grid Padding="10">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+       <RowDefinition Height="Auto" />
+       <RowDefinition Height="Auto" />
+       <RowDefinition Height="Auto" />
+    </Grid.RowDefinitions>
+
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition></ColumnDefinition>
+        <ColumnDefinition></ColumnDefinition>
+      </Grid.ColumnDefinitions>
+      
+    
+          <Button Text="Google" x:Name="Google"
+                  MinimumHeightRequest="30" MinimumWidthRequest ="30"
+                  Clicked="OnAdd" Grid.Row="0" BackgroundColor="#df4a32"/>
+          <Button Text="Twitter"
+                  MinimumHeightRequest="30" MinimumWidthRequest ="30"
+                  Clicked="OnAdd" Grid.Row="1" BackgroundColor="#1da1f2" />
+          <Button Text="Microsoft"
+                  MinimumHeightRequest="30" MinimumWidthRequest ="30"
+                  Clicked="OnAdd" Grid.Row="2" BackgroundColor="#a030cb"/>
+          <Button Text="Facebook"
+                  MinimumHeightRequest="30" MinimumWidthRequest ="30"
+                  Clicked="OnAdd" Grid.Row="3" BackgroundColor="#3b5998"  />
+      
+    
+   <ListView x:Name="DisplayList"
+				Grid.Row="4">
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+             <StackLayout HorizontalOptions="StartAndExpand" Orientation="Horizontal" Padding="15,5,0,0">
+              <StackLayout Padding="5,0,0,0" VerticalOptions="StartAndExpand" Orientation="Vertical">
+                <!--<Label Text="{Binding Name}"  />
+                <Label Text="{Binding Desc}"  />-->
+                 <Label Text="Your Role Model is  "  />
+                <Image Source="{Binding URL}" />
+              </StackLayout>
+            </StackLayout>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+  </Grid>
+  </ContentPage.Content>
+</ContentPage>

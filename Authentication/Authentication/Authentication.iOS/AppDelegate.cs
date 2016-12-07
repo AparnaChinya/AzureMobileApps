@@ -26,7 +26,7 @@ namespace Authentication.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-            App.Init((IAuthenticate)this);
+            myView.Init((IAuthenticate)this);
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);
@@ -34,21 +34,52 @@ namespace Authentication.iOS
 
         // Define a authenticated user.
         private MobileServiceUser user;
+        MobileServiceClient client = new MobileServiceClient("https://apchin-mobileapp.azurewebsites.net");
 
-        public async Task<bool> Authenticate()
+        public MobileServiceAuthenticationProvider ServiceProvider { get; private set; }
+
+        public async Task<bool> Authenticate(int Provider)
         {
             var success = false;
             var message = string.Empty;
+
+            switch (Provider)
+            {
+                case 0:
+                    {
+                        ServiceProvider = MobileServiceAuthenticationProvider.Google;
+                        break;
+                    }
+                case 1:
+                    {
+                        ServiceProvider = MobileServiceAuthenticationProvider.Twitter;
+                        break;
+                    }
+                case 2:
+                    {
+                        ServiceProvider = MobileServiceAuthenticationProvider.MicrosoftAccount;
+                        break;
+                    }
+                case 3:
+                    {
+                        ServiceProvider = MobileServiceAuthenticationProvider.Facebook;
+                        break;
+                    }
+
+            }
+
             try
             {
                 // Sign in with Facebook login using a server-managed flow.
-                user = await TodoItemManager.DefaultManager.CurrentClient.LoginAsync(this,
-                    MobileServiceAuthenticationProvider.Facebook);
-                if (user != null)
+                if (user == null)
                 {
-                    message = string.Format("you are now signed-in as {0}.",
-                        user.UserId);
-                    success = true;
+                    user = await client.LoginAsync(UIApplication.SharedApplication.KeyWindow.RootViewController,
+                       ServiceProvider);
+                    if (user != null)
+                    {
+                        message = string.Format("You are now signed-in as {0}.", user.UserId);
+                        success = true;
+                    }
                 }
             }
             catch (Exception ex)
@@ -57,10 +88,8 @@ namespace Authentication.iOS
             }
 
             // Display the success or failure message.
-            AlertDialog.Builder builder = new AlertDialog.Builder(this);
-            builder.SetMessage(message);
-            builder.SetTitle("Sign-in result");
-            builder.Create().Show();
+            UIAlertView avAlert = new UIAlertView("Sign-in result", message, null, "OK", null);
+            avAlert.Show();
 
             return success;
         }

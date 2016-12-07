@@ -9,3 +9,27 @@ c:\users\apchin\documents\visual studio 2015\Projects\Authentication\Authenticat
 c:\users\apchin\documents\visual studio 2015\Projects\Authentication\Authentication\Authentication\obj\Debug\Authentication.pdb
 c:\users\apchin\documents\visual studio 2015\Projects\Authentication\Authentication\Authentication\obj\Debug\Authentication.dll.mdb
 c:\users\apchin\documents\visual studio 2015\Projects\Authentication\Authentication\Authentication\bin\Debug\Authentication.dll.mdb
+C:\Users\apchin.FAREAST\Documents\AzureMobileApps\Authentication\Authentication\Authentication\bin\Debug\Authentication.dll.config
+C:\Users\apchin.FAREAST\Documents\AzureMobileApps\Authentication\Authentication\Authentication\bin\Debug\Authentication.dll
+C:\Users\apchin.FAREAST\Documents\AzureMobileApps\Authentication\Authentication\Authentication\bin\Debug\Authentication.pdb
+C:\Users\apchin.FAREAST\Documents\AzureMobileApps\Authentication\Authentication\Authentication\bin\Debug\Microsoft.WindowsAzure.Mobile.dll
+C:\Users\apchin.FAREAST\Documents\AzureMobileApps\Authentication\Authentication\Authentication\bin\Debug\Newtonsoft.Json.dll
+C:\Users\apchin.FAREAST\Documents\AzureMobileApps\Authentication\Authentication\Authentication\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\apchin.FAREAST\Documents\AzureMobileApps\Authentication\Authentication\Authentication\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\apchin.FAREAST\Documents\AzureMobileApps\Authentication\Authentication\Authentication\bin\Debug\Windows.Foundation.UniversalApiContract.winmd
+C:\Users\apchin.FAREAST\Documents\AzureMobileApps\Authentication\Authentication\Authentication\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\apchin.FAREAST\Documents\AzureMobileApps\Authentication\Authentication\Authentication\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\apchin.FAREAST\Documents\AzureMobileApps\Authentication\Authentication\Authentication\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\apchin.FAREAST\Documents\AzureMobileApps\Authentication\Authentication\Authentication\bin\Debug\Microsoft.WindowsAzure.Mobile.xml
+C:\Users\apchin.FAREAST\Documents\AzureMobileApps\Authentication\Authentication\Authentication\bin\Debug\Newtonsoft.Json.xml
+C:\Users\apchin.FAREAST\Documents\AzureMobileApps\Authentication\Authentication\Authentication\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\apchin.FAREAST\Documents\AzureMobileApps\Authentication\Authentication\Authentication\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\apchin.FAREAST\Documents\AzureMobileApps\Authentication\Authentication\Authentication\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\apchin.FAREAST\Documents\AzureMobileApps\Authentication\Authentication\Authentication\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\apchin.FAREAST\Documents\AzureMobileApps\Authentication\Authentication\Authentication\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\apchin.FAREAST\Documents\AzureMobileApps\Authentication\Authentication\Authentication\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\apchin.FAREAST\Documents\AzureMobileApps\Authentication\Authentication\Authentication\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\apchin.FAREAST\Documents\AzureMobileApps\Authentication\Authentication\Authentication\obj\Debug\Authentication.csproj.App.config
+C:\Users\apchin.FAREAST\Documents\AzureMobileApps\Authentication\Authentication\Authentication\obj\Debug\Authentication.myView.xaml.g.cs
+C:\Users\apchin.FAREAST\Documents\AzureMobileApps\Authentication\Authentication\Authentication\obj\Debug\Authentication.dll
+C:\Users\apchin.FAREAST\Documents\AzureMobileApps\Authentication\Authentication\Authentication\obj\Debug\Authentication.pdb

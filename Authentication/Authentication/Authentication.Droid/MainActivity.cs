@@ -25,15 +25,45 @@ namespace Authentication.Droid
         // Define a authenticated user.
         private MobileServiceUser user;
         MobileServiceClient client = new MobileServiceClient("https://apchin-mobileapp.azurewebsites.net");
-        public async Task<bool> Authenticate()
+
+        public MobileServiceAuthenticationProvider ServiceProvider { get; private set; }
+        public async Task<bool> Authenticate(int Provider)
         {
             var success = false;
             var message = string.Empty;
+
+            switch (Provider)
+            {
+                case 0:
+                    {
+                        ServiceProvider = MobileServiceAuthenticationProvider.Google;
+                        break;
+                    }
+                case 1:
+                    {
+                        ServiceProvider = MobileServiceAuthenticationProvider.Twitter;
+                        break;
+                    }
+                case 2:
+                    {
+                        ServiceProvider = MobileServiceAuthenticationProvider.MicrosoftAccount;
+                        break;
+                    }
+                case 3:
+                    {
+                        ServiceProvider = MobileServiceAuthenticationProvider.Facebook;
+                        break;
+                    }
+
+            }
+
+
+
             try
             {
                 // Sign in with Facebook login using a server-managed flow.
                 user = await client.LoginAsync(this,
-                    MobileServiceAuthenticationProvider.Facebook);
+                    ServiceProvider);
                 if (user != null)
                 {
                     message = string.Format("you are now signed-in as {0}.",

@@ -12,24 +12,54 @@ namespace Authentication.UWP
         public MainPage()
         {
             InitializeComponent();
-            Authentication.App.Init(this);
+            Authentication.myView.Init(this);
             LoadApplication(new Authentication.App());
         }
 
 
         private MobileServiceUser user;
         MobileServiceClient client = new MobileServiceClient("https://miniHack.azurewebsites.net");
-        public async Task<bool> Authenticate()
+
+        public MobileServiceAuthenticationProvider ServiceProvider { get; private set; }
+
+        public async Task<bool> Authenticate(int Provider)
         {
             string message = string.Empty;
             var success = false;
 
+            switch(Provider)
+            {
+                case 0:
+                    {
+                        ServiceProvider = MobileServiceAuthenticationProvider.Google;
+                        break;
+                    }
+                case 1:
+                    {
+                        ServiceProvider = MobileServiceAuthenticationProvider.Twitter;
+                        break;
+                    }
+                case 2:
+                    {
+                        ServiceProvider = MobileServiceAuthenticationProvider.MicrosoftAccount;
+                        break;
+                    }
+                case 3:
+                    {
+                        ServiceProvider = MobileServiceAuthenticationProvider.Facebook;
+                        break;
+                    }
+
+            }
+
+           
+
             try
             {
-               // Sign in with Facebook login using a server-managed flow.
+               // Sign in with the respective Service Provider login using a server-managed flow.
                 if (user == null)
                 {
-                    user = await client.LoginAsync(MobileServiceAuthenticationProvider.Facebook);
+                    user = await client.LoginAsync(ServiceProvider);
                     if (user != null)
                     {
                         success = true;

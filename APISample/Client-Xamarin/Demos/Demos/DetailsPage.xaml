@@ -8,7 +8,8 @@
 
     <StackLayout Spacing="100">
 
-      <Label Text="{Binding Desc}" TextColor="Purple" Font="100"/>
+      <Label Text="{Binding Name}" TextColor="Green" Font="30"/>
+      <Label Text="{Binding Desc}" TextColor="Purple" Font="20"/>
 
     
     </StackLayout>    

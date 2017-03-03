@@ -27,7 +27,4 @@ C:\Users\apchin\Documents\AzureMobileApps\APISample\Client-Xamarin\Demos\Demos\b
 C:\Users\apchin\Documents\AzureMobileApps\APISample\Client-Xamarin\Demos\Demos\bin\Debug\Plugin.TextToSpeech.xml
 C:\Users\apchin\Documents\AzureMobileApps\APISample\Client-Xamarin\Demos\Demos\bin\Debug\Plugin.TextToSpeech.Abstractions.pdb
 C:\Users\apchin\Documents\AzureMobileApps\APISample\Client-Xamarin\Demos\Demos\bin\Debug\Plugin.TextToSpeech.Abstractions.xml
-C:\Users\apchin\Documents\AzureMobileApps\APISample\Client-Xamarin\Demos\Demos\obj\Debug\Demos.dll.mdb
-C:\Users\apchin\Documents\AzureMobileApps\APISample\Client-Xamarin\Demos\Demos\bin\Debug\Demos.dll.mdb
-C:\Users\apchin\Documents\AzureMobileApps\APISample\Client-Xamarin\Demos\Demos\obj\Debug\Demos.dll.mdb
-C:\Users\apchin\Documents\AzureMobileApps\APISample\Client-Xamarin\Demos\Demos\bin\Debug\Demos.dll.mdb
+C:\Users\apchin\Documents\AzureMobileApps\APISample\Client-Xamarin\Demos\Demos\obj\Debug\Demos.csprojResolveAssemblyReference.cache

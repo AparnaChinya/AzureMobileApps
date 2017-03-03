@@ -26,8 +26,7 @@
 	
 	            <DataTemplate>
 	             
-	              <!--<ImageCell ImageSource="{Binding Images}" Text="{Binding Desc}" />-->
-                <ImageCell Text="{Binding Desc}"
+                <ImageCell Text="{Binding Name}"
 
                   ImageSource="{Binding Images}"/>
 	

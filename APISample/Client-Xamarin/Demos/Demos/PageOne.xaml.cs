@@ -61,7 +61,7 @@ namespace Demos
 
                 {
 
-                    var json = await client.GetStringAsync("https://apchin-mobileapp.azurewebsites.net/api/Check");
+                    var json = await client.GetStringAsync("https://apchin-mobileapp.azurewebsites.net/api/Poki");
                     
                     //Deserialize json
 

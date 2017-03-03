@@ -334,6 +334,12 @@
     <AppxPackagedFile Include="C:\Users\apchin\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\apchin\.nuget\packages\Xam.Plugins.TextToSpeech\2.0.0\lib\UAP10\Plugin.TextToSpeech.Abstractions.dll">
+      <PackagePath>Plugin.TextToSpeech.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\apchin\.nuget\packages\Xam.Plugins.TextToSpeech\2.0.0\lib\UAP10\Plugin.TextToSpeech.dll">
+      <PackagePath>Plugin.TextToSpeech.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\apchin\.nuget\packages\Xamarin.Forms\2.3.3.180\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
     </AppxPackagedFile>

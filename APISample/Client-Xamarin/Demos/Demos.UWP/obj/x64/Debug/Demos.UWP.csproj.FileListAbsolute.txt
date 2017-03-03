@@ -200,3 +200,7 @@ C:\Users\apchin\Documents\AzureMobileApps\APISample\Client-Xamarin\Demos\Demos.U
 C:\Users\apchin\Documents\AzureMobileApps\APISample\Client-Xamarin\Demos\Demos.UWP\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\apchin\Documents\AzureMobileApps\APISample\Client-Xamarin\Demos\Demos.UWP\obj\x64\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 C:\Users\apchin\Documents\AzureMobileApps\APISample\Client-Xamarin\Demos\Demos.UWP\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\apchin\Documents\AzureMobileApps\APISample\Client-Xamarin\Demos\Demos.UWP\bin\x64\Debug\Plugin.TextToSpeech.Abstractions.dll
+C:\Users\apchin\Documents\AzureMobileApps\APISample\Client-Xamarin\Demos\Demos.UWP\bin\x64\Debug\Plugin.TextToSpeech.dll
+C:\Users\apchin\Documents\AzureMobileApps\APISample\Client-Xamarin\Demos\Demos.UWP\bin\x64\Debug\Plugin.TextToSpeech.Abstractions.pdb
+C:\Users\apchin\Documents\AzureMobileApps\APISample\Client-Xamarin\Demos\Demos.UWP\bin\x64\Debug\Plugin.TextToSpeech.pdb

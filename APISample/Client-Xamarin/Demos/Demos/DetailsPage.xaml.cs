@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Plugin.TextToSpeech;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,6 +18,7 @@ namespace Demos
             this.session = item;
 
             BindingContext = session;
+            CrossTextToSpeech.Current.Speak(this.session.Desc);
         }
     }
 }

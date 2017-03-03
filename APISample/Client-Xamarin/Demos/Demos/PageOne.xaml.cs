@@ -33,7 +33,21 @@ namespace Demos
 
             GetSessions();
 
+            myList.ItemSelected += MyList_ItemSelected;
+
         }
+
+        private async void MyList_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            var details = e.SelectedItem as Session;
+            if (details == null)
+                return;
+
+            await Navigation.PushAsync(new DetailsPage(details));
+
+            myList.SelectedItem = null;
+        }
+
         public ObservableCollection<Session> Sessions { get; set; }
         public ICommand GetSessionsCommand { get; set; }
 

@@ -1,0 +1,2 @@
+C:\Users\apchin\Documents\AzureMobileApps\APISample\Client-Xamarin\Demos\Demos.UWP\Demos.UWP.csproj;x64
+C:\Users\apchin\Documents\AzureMobileApps\APISample\Client-Xamarin\Demos\Demos\Demos.csproj;neutral
